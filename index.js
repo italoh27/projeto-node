@@ -30,7 +30,6 @@ const checkid = (req, res, next) =>{
 
 }
 
-
 const user = []
 
 app.get('/Users', (req, res) => {
@@ -65,5 +64,5 @@ app.delete('/Users/:id',checkid, ( req, res ) => {
 
 
 app.listen(port, () => {
-    console.log(`Server started ${port}`)
+    console.log(`Server started ${port}🚀`)
 })
